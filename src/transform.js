@@ -1,4 +1,4 @@
-const babel = require("@babel/core");
+const babel = require("../../babel/packages/babel-core");
 const promisify = require("pify");
 const LoaderError = require("./Error");
 

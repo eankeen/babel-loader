@@ -1,6 +1,7 @@
 let babel;
 try {
-  babel = require("@babel/core");
+  // babel = require("@babel/core");
+  babel = require("../../babel/packages/babel-core");
 } catch (err) {
   if (err.code === "MODULE_NOT_FOUND") {
     err.message +=

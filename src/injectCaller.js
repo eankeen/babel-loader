@@ -1,4 +1,4 @@
-const babel = require("@babel/core");
+const babel = require("../../babel/packages/babel-core");
 
 module.exports = function injectCaller(opts, target) {
   if (!supportsCallerOption()) return opts;
